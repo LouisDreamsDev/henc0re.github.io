@@ -155,10 +155,10 @@ POUR LES ECRANS [TYPE ECRAN D'ORDINATEUR STANDARD] D'UNE TAILLE COMPRIS ENTRE 99
 
 /* POUR LES GRANDS ECRANS ET LES TELEVISONS */
 
-@media (min-width: 1200px) and (max-width: 2000px)
+@media (min-width: 1200px)
 {
 	.folio-body {
-		width: 1000px;
+		max-width: 1800px;
 	}
 }
 
