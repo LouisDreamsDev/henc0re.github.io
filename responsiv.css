@@ -78,10 +78,8 @@ POUR LES ECRANS [TYPE SMARTPHONE] D'UNE TAILLE COMPRIS ENTRE 300PX ET 767PX
 	.link-all-works a {
   padding-bottom: 6px;
 	}
-	.folio-menu li a:hover {
-		padding-bottom: 6px;
-	}
 	figure figcaption {
+		display: block;
 		height: 35%;
 	}
 	figcaption p {
@@ -131,6 +129,9 @@ POUR ECRANS [TYPE TABLETTE] D'UNE TAILLE COMPRIS ENTRE 768PX ET 991PX
 	}
 	.folio-body {
 		width: auto;
+	}
+	figure figcaption {
+	display: block;
 	}
 }
 
